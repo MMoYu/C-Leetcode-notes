@@ -13,6 +13,7 @@ struct TreeNode {
     struct TreeNode *right;
 };
 
+//递归
 static void traverse(struct TreeNode *node, int *result, int *count)
 {
     if (node == NULL) {
