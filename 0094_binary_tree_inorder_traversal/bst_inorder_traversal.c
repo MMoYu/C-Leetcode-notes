@@ -26,7 +26,7 @@ Tree  CreateLink()
 	int data;
 	int temp;
 	Tree  node;
-	
+
 	scanf("%d",&data);		//	输入数据
 	temp=getchar();			//	吸收空格
 	
